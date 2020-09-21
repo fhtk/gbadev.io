@@ -5,7 +5,7 @@
 		"dep": {
 			"code": ["tooltips", "jquery", "bootstrap", "popper"],
 			"style": ["index", "bootstrap", "fontawesome"],
-			"partial": ["head", "header", "footer"]
+			"partial": ["footer", "head", "header", "medsoc"]
 		}
 	}
 ]
