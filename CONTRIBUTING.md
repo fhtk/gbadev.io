@@ -6,7 +6,7 @@
 
 ## Building and using
 
-There is a script to build the website, `util/makesite.ts`. All of the stuff in `src/` are the sources for the website. `npm build` will build the site using this script, outputting it as a static website into `build/` by default. `npm clean` cleans the build directory. `npm rebuild` cleans and then builds. This build process will output HTML files without extensions, so be sure to inform the web server about that with MIME types.
+There is a script to build the website, `util/makesite.ts`. All of the stuff in `src/` are the sources for the website. `npm run build` will build the site using this script, outputting it as a static website into `build/` by default. `npm run clean` cleans the build directory. `npm run rebuild` cleans and then builds. This build process will output HTML files without extensions, so be sure to inform the web server about that with MIME types.
 
 ## Website structure
 
