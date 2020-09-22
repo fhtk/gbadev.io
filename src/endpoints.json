@@ -3,9 +3,27 @@
 		"path": "/",
 		"strict": true,
 		"dep": {
-			"code": ["tooltips", "jquery", "bootstrap", "popper"],
-			"style": ["index", "bootstrap", "fontawesome"],
+			"code": ["bootstrap", "jquery", "popper", "tooltips"],
+			"style": ["bootstrap", "fontawesome", "index"],
 			"partial": ["footer", "head", "header", "medsoc"]
+		}
+	}, {
+		"ident": "gbatek",
+		"path": "/gbatek",
+		"strict": true,
+		"dep": {
+			"code": ["bootstrap", "jquery", "popper", "tooltips"],
+			"style": ["bootstrap", "fontawesome", "gbatek"],
+			"partial": ["footer", "head", "header"]
+		}
+	}, {
+		"ident": "list",
+		"path": "/list",
+		"strict": true,
+		"dep": {
+			"code": ["bootstrap", "jquery", "popper", "tooltips"],
+			"style": ["bootstrap", "fontawesome", "list"],
+			"partial": ["footer", "head", "header"]
 		}
 	}
 ]
